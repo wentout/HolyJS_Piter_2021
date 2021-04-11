@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/HolyJS_Piter_2021/static/css/main.76a41df0.chunk.css",
+    "main.js": "/HolyJS_Piter_2021/static/js/main.29d54ef1.chunk.js",
+    "main.js.map": "/HolyJS_Piter_2021/static/js/main.29d54ef1.chunk.js.map",
+    "runtime-main.js": "/HolyJS_Piter_2021/static/js/runtime-main.4e348791.js",
+    "runtime-main.js.map": "/HolyJS_Piter_2021/static/js/runtime-main.4e348791.js.map",
+    "static/js/2.1a7df246.chunk.js": "/HolyJS_Piter_2021/static/js/2.1a7df246.chunk.js",
+    "static/js/2.1a7df246.chunk.js.map": "/HolyJS_Piter_2021/static/js/2.1a7df246.chunk.js.map",
+    "index.html": "/HolyJS_Piter_2021/index.html",
+    "static/css/main.76a41df0.chunk.css.map": "/HolyJS_Piter_2021/static/css/main.76a41df0.chunk.css.map",
+    "static/js/2.1a7df246.chunk.js.LICENSE.txt": "/HolyJS_Piter_2021/static/js/2.1a7df246.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4e348791.js",
+    "static/js/2.1a7df246.chunk.js",
+    "static/css/main.76a41df0.chunk.css",
+    "static/js/main.29d54ef1.chunk.js"
+  ]
+}

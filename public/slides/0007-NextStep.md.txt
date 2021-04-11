@@ -1,0 +1,46 @@
+
+-----
+
+<h1 style={{fontSize:'15vh', color: 'orange'}}>The Next Step</h1>
+
+<h1 className="borderline">2</h1>
+
+-----
+
+-----
+
+# Shut up and take my Money!
+
+```javascript className=codegiant
+
+APL genes →
+
+Inheritance → LISKOV & SRP;
+
+new Network(Proto) → !SOLID Strict;
+
+define .myMethod → !RESTRICTED
+
+```
+
+
+-----
+
+# Shut up and take my Money!
+
+```javascript className=codegiant
+
+APL genes →
+
+Inheritance → LISKOV & SRP;
+
+new Network(Proto) → !SOLID Strict;
+
+define .myMethod → !RESTRICTED
+
+```
+
+<img src="./content/img/half_liter_mouse.jpg" style={{position: 'absolute', top: '5vh', left:'59vw', zIndex: 100, width: '29vw'}} />
+
+<Button onClick={() => { fetch('http://localhost:3001/example/02_01_SimpleClass')}}>Run Me</Button>
+

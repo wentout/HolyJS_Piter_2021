@@ -1,0 +1,58 @@
+
+-----
+
+<h1 style={{fontSize:'15vh', color: 'orange'}}>Reactions</h1>
+
+<h1 className="borderline">3</h1>
+
+-----
+
+# intricacies : Reactions on Prototype Chain
+
+```javascript className=codegiantshift
+
+→ Prop.sub (callback);
+
+→ Prop.pub (callback);
+
+new myInstance.Chained();
+
+```
+
+<Button onClick={() => { fetch('http://localhost:3001/example/05_intricaciesFnProto')}}>Run Me</Button>
+
+-----
+
+# intricacies : Reactions on prototype Topology 
+
+```javascript className=codegiantshift
+
+→ instance is a Kind
+
+new parent.Child();
+
+// use interfaces instead
+ø instance.getOtherKindData();
+
+```
+
+<Button onClick={() => { fetch('http://localhost:3001/example/05_intricaciesFnProto')}}>Run Me</Button>
+
+-----
+
+# intricacies : Reactions on Security Reasons
+
+```javascript className=codegiantshift
+
+→ it is just Identity Pattern
+
+→ easy to understand
+
+→ healthy development
+
+... enjoy ...
+
+```
+
+<Button onClick={() => { fetch('http://localhost:3001/example/05_intricaciesFnProto')}}>Run Me</Button>
+

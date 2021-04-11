@@ -1,0 +1,195 @@
+
+<h1 style={{fontSize:'15vh', color: 'orange'}}>... problem ...</h1>
+
+<h1 className="borderline">-1</h1>
+
+
+
+-----
+
+# problem
+
+<Box sx={{marginLeft:'5vw', marginTop:'10vh'}}>
+
+* # we will talk about Types
+
+</Box>
+
+-----
+
+# problem
+
+<Box sx={{marginLeft:'5vw', marginTop:'10vh'}}>
+
+* # we will talk about Types
+* # yes, this itself is a very big problem
+
+</Box>
+
+-----
+
+# problem
+
+<Box sx={{marginLeft:'5vw', marginTop:'10vh'}}>
+
+* # we will talk about Types
+* # yes, this itself is a very big problem
+* # though instead of talking of Primitives
+
+</Box>
+
+-----
+
+# problem
+
+<Box sx={{marginLeft:'5vw', marginTop:'10vh'}}>
+
+* # we will talk about Types
+* # yes, this itself is a very big problem
+* # though instead of talking of Primitives (@[ufocoder](https://twitter.com/xufocoder)'s → [article](https://medium.com/devschacht/javascript-coercions-9a36505c1370))
+
+</Box>
+
+-----
+
+# problem
+
+<Box sx={{marginLeft:'5vw', marginTop:'10vh'}}>
+
+* # we will talk about Types
+* # yes, this itself is a very big problem
+* # though instead of talking of Primitives (@[ufocoder](https://twitter.com/xufocoder)'s → [article](https://medium.com/devschacht/javascript-coercions-9a36505c1370))
+* # we may focus on Constructed Structures
+
+</Box>
+
+-----
+
+# problem
+
+<Box sx={{marginLeft:'5vw', marginTop:'10vh'}}>
+
+* # we will talk about Types
+* # yes, this itself is a very big problem
+* # though instead of talking of Primitives (@[ufocoder](https://twitter.com/xufocoder)'s → [article](https://medium.com/devschacht/javascript-coercions-9a36505c1370))
+* # we may focus on Constructed Structures (@[Jin](https://twitter.com/_jin_nin_)'s → [article](https://github.com/nin-jin/HabHub/issues/43))
+
+</Box>
+
+-----
+
+# problem
+
+<Box sx={{marginLeft:'5vw', marginTop:'10vh'}}>
+
+* # we will talk about Types
+* # yes, this itself is a very big problem
+* # though instead of talking of Primitives (@[ufocoder](https://twitter.com/xufocoder)'s → [article](https://medium.com/devschacht/javascript-coercions-9a36505c1370))
+* # we may focus on Constructed Structures (@[Jin](https://twitter.com/_jin_nin_)'s → [article](https://github.com/nin-jin/HabHub/issues/43))
+* # and examine other interesting things
+
+</Box>
+
+
+
+-----
+
+# ... and ... yea ... being Strict Typed Philosopher ...
+
+<center>
+
+#  we may think : instead of doing this
+</center>
+
+
+
+<Box>
+<center>
+<img src="./content/img/poly_red.svg"  style={{width: '70vw'}} />
+</center>
+</Box>
+
+
+-----
+
+# ... and ... yea ... being Strict Typed Philosopher ...
+
+<center>
+
+# we should be kinda loving this
+</center>
+
+
+<Box>
+<center>
+<img src="./content/img/poly_struct.svg"  style={{width: '70vw'}} />
+</center>
+</Box>
+
+
+
+-----
+
+<Box sx={{marginTop: '35vh'}}>
+<center>
+<h1 style={{fontSize: '11vh', color: 'cyan'}}>... let's help us ...</h1>
+</center>
+</Box>
+
+-----
+
+<Box sx={{marginTop: '35vh'}}>
+<center>
+<h1 style={{fontSize: '11vh', color: 'cyan'}}>... let's help us ...</h1>
+<h2>Why so serious?</h2>
+</center>
+</Box>
+
+-----
+
+<Box sx={{marginTop: '35vh'}}>
+<center>
+<h1 style={{fontSize: '11vh', color: 'cyan'}}>... let's help us ...</h1>
+<h2>Please don't be so serious...</h2>
+</center>
+</Box>
+
+-----
+
+<Box sx={{marginTop: '35vh'}}>
+<center>
+<h1 style={{fontSize: '11vh', color: 'cyan'}}>... let's help us ...</h1>
+<h2>Please don't be so serious...</h2>
+<h2 style={{color:'green'}}>It's just for Fun!</h2>
+</center>
+</Box>
+
+-----
+
+<Box sx={{marginTop: '35vh'}}>
+<center>
+<h1 style={{fontSize: '11vh', color: 'cyan'}}>... let's help us ...</h1>
+<h2>Please don't be so serious...</h2>
+<h2 style={{color:'green'}}>It's just for Fun!</h2>
+<h1 style={{color:'orange'}}> ; ^ )</h1>
+</center>
+</Box>
+
+-----
+
+<Box sx={{marginTop: '35vh'}}>
+<center>
+<h1 style={{fontSize: '11vh', color: 'cyan'}}>...</h1>
+<h2>Please don't be so serious...</h2>
+<h2 style={{color:'green'}}>It's just for Fun!</h2>
+<h1 style={{color:'orange'}}> ; ^ )</h1>
+</center>
+</Box>
+
+<img src="./content/img/girl_burns.jpeg" style={{position: 'absolute', top: '20vh', left:'32vw', zIndex: 100, width: '35vw'}} />
+
+
+-----
+
+
+

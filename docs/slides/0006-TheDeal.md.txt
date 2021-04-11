@@ -1,0 +1,161 @@
+
+
+-----
+
+<h1 style={{fontSize:'15vh', color: 'orange'}}>The Deal</h1>
+
+<h1 className="borderline">1</h1>
+
+
+-----
+
+# Shut up and take my Money!
+
+```javascript className=codehugeshift
+
+123 → new Number(123);
+
+
+
+
+```
+
+
+-----
+
+# Shut up and take my Money!
+
+```javascript className=codehugeshift
+
+123 → new Number(123);
+
+'123' → new String(123);
+
+
+
+
+```
+
+-----
+
+# Shut up and take my Money!
+
+```javascript className=codehugeshift
+
+123 → new Number(123);
+
+'123' → new String(123);
+
+true → new Boolean(true);
+
+
+
+
+
+```
+
+
+-----
+
+# Shut up and take my Money!
+
+```javascript className=codehugeshift
+
+123 → new Number(123);
+
+'123' → new String(123);
+
+true → new Boolean(true);
+
+null, undefined, Symbol & BigInt → !Strict
+
+
+
+```
+
+
+-----
+
+# Shut up and take my Money!
+
+```javascript className=codehugeshift
+
+123 → new Number(123);
+
+'123' → new String(123);
+
+true → new Boolean(true);
+
+null, undefined, Symbol & BigInt → !Strict
+
+Objects → Proxy(Objects)
+
+```
+
+-----
+
+# Shut up and take my Money!
+
+```javascript className=codehugeshift
+
+123 → new Number(123);
+
+'123' → new String(123);
+
+true → new Boolean(true);
+
+null, undefined, Symbol & BigInt → !Strict
+
+Objects → Proxy(Objects)
+
+```
+
+<img src="./content/img/take_my_money.jpg" style={{position: 'absolute', top: '11vh', left:'59vw', zIndex: 100, width: '29vw'}} />
+
+<Button onClick={() => { fetch('http://localhost:3001/example/02_01_SimpleClass')}}>Run Me</Button>
+
+
+
+-----
+
+-----
+
+# Shut up and take my Money!
+
+```javascript className=codehuge
+
+Array, Object → PrototypeChain;
+
+Symbol.toPrimitive → (hint: 'number|string');
+
+Set, Map, WeakSet, WeakMap → We need it?
+
+.toJSON → !Strict
+
+.getPrototypeOf → SOLID
+
+```
+
+
+-----
+
+# Shut up and take my Money!
+
+```javascript className=codehuge
+
+Array, Object → PrototypeChain;
+
+Symbol.toPrimitive → (hint: 'number|string');
+
+Set, Map, WeakSet, WeakMap → We need it?
+
+.toJSON → !Strict
+
+.getPrototypeOf → SOLID
+
+```
+
+<img src="./content/img/take_my_money.jpg" style={{position: 'absolute', top: '59vh', left:'59vw', zIndex: 100, width: '29vw'}} />
+
+<Button onClick={() => { fetch('http://localhost:3001/example/02_01_SimpleClass')}}>Run Me</Button>
+
