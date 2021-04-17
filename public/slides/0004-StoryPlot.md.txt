@@ -134,7 +134,7 @@
 * # [Type Script](https://www.typescriptlang.org/) : it helps, indeed
 * # [ES Lint Rules](https://eslint.org/docs/rules/) : can do restrictions
 * # Contract Validation tools: [Runtypes](https://github.com/pelotom/runtypes), [AJV](https://ajv.js.org/)
-* # [Reflect Metadata](https://www.npmjs.com/package/reflect-metadata) and [Class-Validator](https://www.npmjs.com/package/typescript-class-validator), [Class-Transformer](https://www.npmjs.com/package/class-transformer-validator)
+* # [Reflect Metadata](https://www.npmjs.com/package/reflect-metadata) → [Class-Validator](https://www.npmjs.com/package/typescript-class-validator), [Class-Transformer](https://www.npmjs.com/package/class-transformer-validator)
 
 </Box>
 
@@ -147,7 +147,7 @@
 * # [Type Script](https://www.typescriptlang.org/) : it helps, indeed
 * # [ES Lint Rules](https://eslint.org/docs/rules/) : can do restrictions
 * # Contract Validation tools: [Runtypes](https://github.com/pelotom/runtypes), [AJV](https://ajv.js.org/)
-* # [Reflect Metadata](https://www.npmjs.com/package/reflect-metadata) and [Class-Validator](https://www.npmjs.com/package/typescript-class-validator), [Class-Transformer](https://www.npmjs.com/package/class-transformer-validator) <br/><br/>
+* # [Reflect Metadata](https://www.npmjs.com/package/reflect-metadata) → [Class-Validator](https://www.npmjs.com/package/typescript-class-validator), [Class-Transformer](https://www.npmjs.com/package/class-transformer-validator) <br/><br/>
 
 * # and JavaScript, able to ruin this all ...
 
@@ -247,6 +247,57 @@ console.log({} + 'asdfgh'); // ...
 
 
 ```
+
+
+-----
+
+# And what about Other tooling ?
+
+* # Contract Validation tools: [Runtypes](https://github.com/pelotom/runtypes), [AJV](https://ajv.js.org/)
+* # [Reflect Metadata](https://www.npmjs.com/package/reflect-metadata) → [Class-Validator](https://www.npmjs.com/package/typescript-class-validator), [Class-Transformer](https://www.npmjs.com/package/class-transformer-validator) <br/><br/>
+
+
+-----
+
+# And what about Other tooling ?
+
+* # Contract Validation tools: [Runtypes](https://github.com/pelotom/runtypes), [AJV](https://ajv.js.org/)
+* # [Reflect Metadata](https://www.npmjs.com/package/reflect-metadata) → [Class-Validator](https://www.npmjs.com/package/typescript-class-validator), [Class-Transformer](https://www.npmjs.com/package/class-transformer-validator) <br/><br/>
+
+<Box sx={{marginTop: '0vh'}}>
+<center>
+	<h1 style={{fontSize: '7vh', color: 'green'}}>yes it works</h1>
+</center>
+</Box>
+
+-----
+
+# And what about Other tooling ?
+
+* # Contract Validation tools: [Runtypes](https://github.com/pelotom/runtypes), [AJV](https://ajv.js.org/)
+* # [Reflect Metadata](https://www.npmjs.com/package/reflect-metadata) → [Class-Validator](https://www.npmjs.com/package/typescript-class-validator), [Class-Transformer](https://www.npmjs.com/package/class-transformer-validator) <br/><br/>
+
+<Box sx={{marginTop: '0vh'}}>
+<center>
+	<h1 style={{fontSize: '7vh', color: 'green'}}>yes it works</h1>
+	<h1 style={{fontSize: '8vh', color: 'gray'}}>but this is hidden composition</h1>
+</center>
+</Box>
+
+-----
+
+# And what about Other tooling ?
+
+* # Contract Validation tools: [Runtypes](https://github.com/pelotom/runtypes), [AJV](https://ajv.js.org/)
+* # [Reflect Metadata](https://www.npmjs.com/package/reflect-metadata) → [Class-Validator](https://www.npmjs.com/package/typescript-class-validator), [Class-Transformer](https://www.npmjs.com/package/class-transformer-validator) <br/><br/>
+
+<Box sx={{marginTop: '0vh'}}>
+<center>
+	<h1 style={{fontSize: '7vh', color: 'green'}}>yes it works</h1>
+	<h1 style={{fontSize: '8vh', color: 'gray'}}>but this is hidden composition</h1>
+	<h1 style={{fontSize: '9vh', color: 'orange'}}>Let's use Vanilla JS instead !</h1>
+</center>
+</Box>
 
 
 -----
