@@ -94,7 +94,164 @@
 
 -----
 
-# ... and ... yea ... being Strict Typed Philosopher ...
+# what do we have for now
+
+<Box sx={{marginLeft:'5vw', marginTop:'10vh'}}>
+
+* # [Type Script](https://www.typescriptlang.org/) : it helps, indeed
+
+</Box>
+
+-----
+
+# what do we have for now
+
+<Box sx={{marginLeft:'5vw', marginTop:'10vh'}}>
+
+* # [Type Script](https://www.typescriptlang.org/) : it helps, indeed
+* # [ES Lint Rules](https://eslint.org/docs/rules/) : can do restrictions
+
+</Box>
+
+-----
+
+# what do we have for now
+
+<Box sx={{marginLeft:'5vw', marginTop:'10vh'}}>
+
+* # [Type Script](https://www.typescriptlang.org/) : it helps, indeed
+* # [ES Lint Rules](https://eslint.org/docs/rules/) : can do restrictions
+* # Contract Validation tools: [Runtypes](https://github.com/pelotom/runtypes), [AJV](https://ajv.js.org/)
+
+</Box>
+
+-----
+
+# what do we have for now
+
+<Box sx={{marginLeft:'5vw', marginTop:'10vh'}}>
+
+* # [Type Script](https://www.typescriptlang.org/) : it helps, indeed
+* # [ES Lint Rules](https://eslint.org/docs/rules/) : can do restrictions
+* # Contract Validation tools: [Runtypes](https://github.com/pelotom/runtypes), [AJV](https://ajv.js.org/)
+* # [Reflect Metadata](https://www.npmjs.com/package/reflect-metadata) and [Class-Validator](https://www.npmjs.com/package/typescript-class-validator), [Class-Transformer](https://www.npmjs.com/package/class-transformer-validator)
+
+</Box>
+
+-----
+
+# what do we have for now
+
+<Box sx={{marginLeft:'5vw', marginTop:'10vh'}}>
+
+* # [Type Script](https://www.typescriptlang.org/) : it helps, indeed
+* # [ES Lint Rules](https://eslint.org/docs/rules/) : can do restrictions
+* # Contract Validation tools: [Runtypes](https://github.com/pelotom/runtypes), [AJV](https://ajv.js.org/)
+* # [Reflect Metadata](https://www.npmjs.com/package/reflect-metadata) and [Class-Validator](https://www.npmjs.com/package/typescript-class-validator), [Class-Transformer](https://www.npmjs.com/package/class-transformer-validator) <br/><br/>
+
+* # and JavaScript, able to ruin this all ...
+
+</Box>
+
+-----
+
+# How does TypeScript binary operations work
+
+```typescript className=codegiant
+
+// just,
+
+console.log(5 + 'string');  // ok
+
+
+```
+
+-----
+
+# How does TypeScript binary operations work
+
+```typescript className=codegiant
+
+// just, may be
+
+console.log(5 + 'string');  // ok
+console.log('str' + true);  // ok
+
+
+
+```
+
+-----
+
+# How does TypeScript binary operations work
+
+```typescript className=codegiant
+
+// just, may be you want it ?
+
+console.log(5 + 'string');  // ok
+console.log('str' + true);  // ok
+
+console.log({} + 'asdfgh'); // ...
+
+```
+
+-----
+
+# How does TypeScript binary operations work
+
+```typescript className=codegiant
+
+// just, 
+
+
+
+console.log(5 + 'string');  // ok
+console.log('str' + true);  // ok
+console.log({} + 'asdfgh'); // ...
+
+```
+
+<img src="./content/img/Yes-You-Can-Slide.jpg" style={{position: 'absolute', top: '16vh', left:'32vw', zIndex: 100, width: '35vw'}} />
+
+
+-----
+
+# how ES Lint may help
+
+```javascript className=codemedium
+// Restrict eslint rules for Binary Operations
+rules: {
+	'no-restricted-syntax': ['error', {
+		selector: 'BinaryExpression[operator=\'+\']',
+		message : 'syntax protocol error: +'
+	}, {
+		selector: 'BinaryExpression[operator=\'>\']',
+		message : 'syntax protocol error: >'
+	}],
+}
+```
+
+-----
+
+# But can ES Lint help indeed ?
+
+```javascript className=codegiant
+// and we can switch it off ...
+
+// eslint-disable-next-line \→
+// → no-restricted-syntax
+console.log(5 + 'string');  // ok
+console.log('str' + true);  // ok
+console.log({} + 'asdfgh'); // ...
+
+
+```
+
+
+-----
+
+# and ... yea ... being Strict Typed Philosopher ...
 
 <center>
 
@@ -112,7 +269,8 @@
 
 -----
 
-# ... and ... yea ... being Strict Typed Philosopher ...
+
+# and ... yea ... being Strict Typed Philosopher ...
 
 <center>
 
@@ -125,8 +283,6 @@
 <img src="./content/img/poly_struct.svg"  style={{width: '70vw'}} />
 </center>
 </Box>
-
-
 
 -----
 
@@ -160,7 +316,7 @@
 <center>
 <h1 style={{fontSize: '11vh', color: 'cyan'}}>... let's help us ...</h1>
 <h2>Please don't be so serious...</h2>
-<h2 style={{color:'green'}}>It's just for Fun!</h2>
+<h2 style={{color:'green'}}>Let's inflame this!</h2>
 </center>
 </Box>
 
@@ -170,7 +326,7 @@
 <center>
 <h1 style={{fontSize: '11vh', color: 'cyan'}}>... let's help us ...</h1>
 <h2>Please don't be so serious...</h2>
-<h2 style={{color:'green'}}>It's just for Fun!</h2>
+<h2 style={{color:'green'}}>Let's inflame this!</h2>
 <h1 style={{color:'orange'}}> ; ^ )</h1>
 </center>
 </Box>
@@ -181,7 +337,7 @@
 <center>
 <h1 style={{fontSize: '11vh', color: 'cyan'}}>...</h1>
 <h2>Please don't be so serious...</h2>
-<h2 style={{color:'green'}}>It's just for Fun!</h2>
+<h2 style={{color:'green'}}>Let's inflame this!</h2>
 <h1 style={{color:'orange'}}> ; ^ )</h1>
 </center>
 </Box>

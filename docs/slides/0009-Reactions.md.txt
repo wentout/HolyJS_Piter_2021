@@ -11,13 +11,33 @@
 
 ```javascript className=codegiantshift
 
-→ Prop.sub (callback);
+→ Prop.subscribe (callback);
 
-→ Prop.pub (callback);
 
-new myInstance.Chained();
+-----
+
+# intricacies : Reactions on Prototype Chain
+
+```javascript className=codegiantshift
+
+→ Prop.subscribe (callback);
+
+→ Prop.unsibscribe (callback);
+
+-----
+
+# intricacies : Reactions on Prototype Chain
+
+```javascript className=codegiantshift
+
+→ Prop.subscribe (callback);
+
+→ Prop.unsibscribe (callback);
 
 ```
+<center>
+<img src="./content/img/half_liter_mouse.jpg" style={{top: '35vh', left:'70vw', zIndex: 100, width: '39vw'}} />
+</center>
 
 <Button onClick={() => { fetch('http://localhost:3001/example/05_intricaciesFnProto')}}>Run Me</Button>
 
@@ -27,7 +47,36 @@ new myInstance.Chained();
 
 ```javascript className=codegiantshift
 
-→ instance is a Kind
+→ if instance is a Kind
+
+new parent.Child();
+
+
+```
+
+
+-----
+
+# intricacies : Reactions on prototype Topology 
+
+```javascript className=codegiantshift
+
+→ if instance is a Kind
+
+new parent.Child();
+
+// use interfaces instead
+ø instance.getOtherKindData();
+
+```
+
+-----
+
+# intricacies : Reactions on prototype Topology 
+
+```javascript className=codegiantshift
+
+→ if instance is a Kind
 
 new parent.Child();
 
@@ -38,6 +87,29 @@ new parent.Child();
 
 <Button onClick={() => { fetch('http://localhost:3001/example/05_intricaciesFnProto')}}>Run Me</Button>
 
+<img src="./content/img/Yes-You-Can-Slide.jpg" style={{position: 'absolute', top: '30vh', left:'70vw', zIndex: 100, width: '25vw'}} />
+
+-----
+
+# intricacies : Reactions on Security Reasons
+
+```javascript className=codegiantshift
+
+→ it is just Identity Pattern
+
+
+```
+-----
+
+# intricacies : Reactions on Security Reasons
+
+```javascript className=codegiantshift
+
+→ it is just Identity Pattern
+
+→ easy to understand
+
+```
 -----
 
 # intricacies : Reactions on Security Reasons
@@ -50,9 +122,22 @@ new parent.Child();
 
 → healthy development
 
-... enjoy ...
+```
+-----
+
+# intricacies : Reactions on Security Reasons
+
+```javascript className=codegiantshift
+
+→ it is just Identity Pattern
+
+→ easy to understand
+
+→ healthy development
+
+        ... enjoy ...
 
 ```
 
-<Button onClick={() => { fetch('http://localhost:3001/example/05_intricaciesFnProto')}}>Run Me</Button>
+
 

@@ -17,6 +17,34 @@ APL genes →
 
 Inheritance → LISKOV & SRP;
 
+
+```
+
+-----
+
+# Shut up and take my Money!
+
+```javascript className=codegiant
+
+APL genes →
+
+Inheritance → LISKOV & SRP;
+
+new Network(Proto) → !SOLID Strict;
+
+
+```
+
+-----
+
+# Shut up and take my Money!
+
+```javascript className=codegiant
+
+APL genes →
+
+Inheritance → LISKOV & SRP;
+
 new Network(Proto) → !SOLID Strict;
 
 define .myMethod → !RESTRICTED
@@ -40,7 +68,7 @@ define .myMethod → !RESTRICTED
 
 ```
 
-<img src="./content/img/half_liter_mouse.jpg" style={{position: 'absolute', top: '5vh', left:'59vw', zIndex: 100, width: '29vw'}} />
+<img src="./content/img/girl_burns.jpeg" style={{position: 'absolute', top: '5vh', left:'59vw', zIndex: 100, width: '29vw'}} />
 
 <Button onClick={() => { fetch('http://localhost:3001/example/02_01_SimpleClass')}}>Run Me</Button>
 
