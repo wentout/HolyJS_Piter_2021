@@ -8,6 +8,65 @@
 
 -----
 
+# IMO : JavaScript is designed for ... Objects
+
+```javascript className=codegiantshift
+
+// .valueOf extracted nowhere
+
+(5).valueOf() === 5 // true
+```
+
+-----
+
+# IMO : JavaScript is designed for ... Objects
+
+```javascript className=codegiantshift
+
+// .valueOf extracted nowhere
+
+(5).valueOf() === 5 // true
+
+('5').valueOf() === '5' // true
+
+```
+
+-----
+
+# IMO : JavaScript is designed for ... Objects
+
+```javascript className=codegiantshift
+
+// .valueOf extracted nowhere
+
+(5).valueOf() === 5 // true
+
+('5').valueOf() === '5' // true
+(true).valueOf() === true // true
+
+```
+
+<Button onClick={() => { fetch('http://localhost:3001/example/00_with')}}>Run Me</Button>
+
+-----
+
+# IMO : the sort of thinking JavaScript is designed for
+
+```javascript className=codegiantshift
+with (0) {
+	console.log(
+		Math.pow(
+			valueOf(), valueOf()
+		)
+	);      // 1
+}
+```
+
+<Button onClick={() => { fetch('http://localhost:3001/example/00_with')}}>Run Me</Button>
+
+-----
+
+
 # IMO : the sort of thinking JavaScript is designed for
 
 ```javascript className=codegiantshift
@@ -21,6 +80,8 @@ with ( [ 2, 5 ] ) {
 }
 
 ```
+
+<Button onClick={() => { fetch('http://localhost:3001/example/00_with')}}>Run Me</Button>
 
 -----
 
@@ -61,60 +122,25 @@ with ( [ 2, 5 ] ) {
 </Box>
 
 
------
-
-# So what is Going on Here ?
-
-```javascript className=codegiantshift
-
-with ( [ 2, 5 ] ) {
-	console.log(
-		Math.pow(
-			... reverse ()
-		)
-	);		// JS 25 wohoo!
-}
-
-```
-
-<Button onClick={() => { fetch('http://localhost:3001/example/00_with')}}>Run Me</Button>
-
 
 -----
 
-
------
-
-<Box sx={{marginTop: '35vh'}}>
+<Box sx={{marginTop: '25vh'}}>
 <center>
-<h1 style={{fontSize: '11vh', color: 'cyan'}}>... How this can help us ? ...</h1>
+<h1 style={{fontSize: '11vh', color: 'cyan'}}>How this can help us ?</h1>
 </center>
 </Box>
 
 -----
 
-<Box sx={{marginTop: '35vh'}}>
+<Box sx={{marginTop: '25vh'}}>
 <center>
-<h1 style={{fontSize: '11vh', color: 'cyan'}}>...</h1>
-<h2>Seriously?</h2>
-<h2 style={{color:'green'}}>Not just for Fun?</h2>
+<h1 style={{fontSize: '11vh', color: 'cyan'}}>How this can help us ?</h1>
 </center>
 </Box>
 
-<img src="./content/img/girl_burns.jpeg" style={{position: 'absolute', top: '20vh', left:'32vw', zIndex: 100, width: '35vw'}} />
 
------
-
-<Box sx={{marginTop: '35vh'}}>
-<center>
-<h1 style={{fontSize: '11vh', color: 'cyan'}}>...</h1>
-<h2>Seriously !</h2>
-<h2 style={{color:'green'}}>Not just for Fun !</h2>
-<h1 style={{color:'orange'}}> ; ^ )</h1>
-</center>
-</Box>
-
-<img src="./content/img/half_liter_mouse.jpg" style={{position: 'absolute', top: '20vh', left:'32vw', zIndex: 100, width: '35vw'}} />
+<img src="./content/img/half_liter_mouse.jpg" style={{position: 'absolute', top: '50vh', left:'32vw', zIndex: 100, width: '35vw'}} />
 
 -----
 
@@ -135,6 +161,7 @@ var instance = new TheConstructor;
 <Button onClick={() => { fetch('http://localhost:3001/example/01_1995')}}>Run Me</Button>
 
 -----
+
 # that frightening picture
 
 <Box>
@@ -176,6 +203,35 @@ Unlike most class-based object languages, properties can be added to objects dyn
 		-- What for? Snowflakes, for sure!<br/>
 </Box>
 
+-----
+
+# even more frightening modern picture
+<center>
+<img src="./content/img/EichObjects.png" style={{top: '15vh', zIndex: 100, width: '85vw'}} />
+</center>
+
+
+-----
+
+# even more frightening modern picture
+<center>
+<img src="./content/JS_Object_Topology.svg" style={{top: '15vh', zIndex: 100, width: '85vw'}} />
+</center>
+
+-----
+
+# even more frightening modern picture
+<center>
+<img src="./content/img/EichNullUndefined.png" style={{top: '15vh', zIndex: 100, width: '85vw'}} />
+</center>
+
+
+-----
+
+# even more frightening modern picture
+<center>
+<img src="./content/JS_Object_Topology.svg" style={{top: '15vh', zIndex: 100, width: '85vw'}} />
+</center>
 
 -----
 
@@ -248,3 +304,77 @@ Unlike most class-based object languages, properties can be added to objects dyn
 </Box>
 
 <Button onClick={() => { fetch('http://localhost:3001/example/PrototypeChainDeepnessTest')}}>Run Me</Button>
+
+-----
+
+
+# Let's take a look on How Deep is <br/> &nbsp; the bunny hole of the Prototype Chain ?
+
+
+```javascript className=codegiant
+
+// make base of all objects
+
+const base = Object.create(null);
+
+```
+
+-----
+
+
+# Let's take a look on How Deep is <br/> &nbsp; the bunny hole of the Prototype Chain ?
+
+
+```javascript className=codehugeshift
+
+const base = Object.create(null);
+
+```
+
+```javascript className=codegiant
+// make proto for base
+
+const proto = 
+	new Proxy( proto, base );
+
+```
+
+-----
+
+
+# Let's take a look on How Deep is <br/> &nbsp; the bunny hole of the Prototype Chain ?
+
+```javascript className=codehugeshift
+
+const base = Object.create(null);
+const proto = new Proxy(proto, base);
+
+
+```
+```javascript className=codegiantshift
+
+// define an instance
+
+    const instance = {};
+```
+
+-----
+
+
+# Let's take a look on How Deep is <br/> &nbsp; the bunny hole of the Prototype Chain ?
+
+```javascript className=codehugeshift
+
+const base = Object.create(null);
+const proto = new Proxy(proto, base);
+const instance = {};
+
+```
+```javascript className=codegiant
+Reflect            // Inherit !
+ .setPrototypeOf
+       (instance, proto);
+
+```
+
+-----
