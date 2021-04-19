@@ -4,43 +4,60 @@ debugger;
 
 const vectorObj = new Number(5);
 
+debugger;
+
 const proxyAsNumber = new Proxy(vectorObj, {
-	get (target, prop) {
+	get(target, prop) {
 		if (prop === Symbol.toPrimitive) {
-			return function (type) {
-				// this -- proxy itself
-				// type === 'default'
-				// console.log('THIS', this === vectorObj, args);
-				return vectorObj.valueOf();
+			return function (hint) {
+				if (hint === 'number') {
+					debugger;
+					return vectorObj.valueOf();
+				}
+
+				debugger;
+				throw new TypeError('Type Mismatch!');
 			}
 		}
+		debugger;
 		return target.valueOf();
 	}
 });
+
+debugger;
 
 console.log(proxyAsNumber);
 console.log(vectorObj);
 console.log(proxyAsNumber === vectorObj);
 
-try {
-	console.log(0 + proxyAsNumber);		// 5
-	console.log(2 + vectorObj);		// 7
-} catch (error) {
-	console.error(error);
-}
+debugger;
 
-console.log('proxy as a number: ' + proxyAsNumber);		// 5
+try {
+	debugger;
+	// so it works for regular calculations
+	console.log(2 + vectorObj);			// 7
+	debugger;
+
+	// but fails for proxified number
+	debugger;
+	console.log(0 + proxyAsNumber);		// 5
+} catch (error) {
+
+	debugger;
+	console.error(error);
+
+}
 
 debugger;
 
-const whySymbolToPrimitive = {};
+const whyNotJustObjects = {};
 
-console.log(' look ! → ', 0 + whySymbolToPrimitive);
+console.log(' look ! : → ', 0 + whyNotJustObjects);
 
-Object.setPrototypeOf(whySymbolToPrimitive, vectorObj);
+Object.setPrototypeOf(whyNotJustObjects, vectorObj);
 
 try {
-	whySymbolToPrimitive.valueOf();
+	whyNotJustObjects.valueOf();
 } catch (error) {
 	debugger;
 	console.error(error);
@@ -48,7 +65,7 @@ try {
 
 debugger;
 
-whySymbolToPrimitive[Symbol.toPrimitive] = function () {
+whyNotJustObjects[Symbol.toPrimitive] = function () {
 	debugger;
 	const toBeNumber = Object.getPrototypeOf(this);
 	return toBeNumber.valueOf();
@@ -56,6 +73,6 @@ whySymbolToPrimitive[Symbol.toPrimitive] = function () {
 
 debugger;
 
-console.log(0 + whySymbolToPrimitive);
+console.log(' look ! : → → → ', 0 + whyNotJustObjects);
 
 debugger;

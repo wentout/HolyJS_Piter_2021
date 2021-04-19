@@ -11,63 +11,176 @@
 
 -----
 
-# Shut up and take my Money!
+# So we will Use ...
 
-```javascript className=codehugeshift
+```javascript className=codegiantshift
 
-123 → new Number(123);
-
-
-
-
-```
-
-
------
-
-# Shut up and take my Money!
-
-```javascript className=codehugeshift
-
-123 → new Number(123);
-
-'123' → new String(123);
-
-
+[ Symbol . toPrimitive ]
 
 
 ```
 
 -----
 
-# Shut up and take my Money!
+# Symbol . toPrimitive for ES Lint Rule ...
+
+```javascript className=codemedium
+
+[ Symbol . toPrimitive ] // but for Runtime !
+
+// Restrict eslint rules for Binary Operations AOT
+rules: {
+	'no-restricted-syntax': ['error', {
+		selector: 'BinaryExpression[operator=\'+\']',
+		message : 'syntax protocol error: +'
+	}, {
+		selector: 'BinaryExpression[operator=\'>\']',
+		message : 'syntax protocol error: >'
+	}],
+}
+```
+
+-----
+
+# Symbol . toPrimitive for ES Lint Rule ...
+
+```javascript className=codemedium
+
+[ Symbol . toPrimitive ] // but for Runtime !
+
+// Restrict eslint rules for Binary Operations AOT
+rules: {
+	'no-restricted-syntax': ['error', {
+		selector: 'BinaryExpression[operator=\'+\']',
+		message : 'syntax protocol error: +'
+	}, {
+		selector: 'BinaryExpression[operator=\'>\']',
+		message : 'syntax protocol error: >'
+	}],
+}
+```
+
+<Button onClick={() => { fetch('http://localhost:3001/example/05_NumberBinaryError')}}>Run Me</Button>
+
+-----
+
+# So we will Use ...
+
+```javascript className=codegiantshift
+
+[ Symbol . toPrimitive ]
+
+// and
+that . Proxy . example
+
+
+```
+
+-----
+
+# So we will Use ...
+
+```javascript className=codegiantshift
+
+[ Symbol . toPrimitive ]
+
+// and
+that . Proxy . example
+
+// for Strictness management
+
+```
+
+<Button onClick={() => { fetch('http://localhost:3001/example/07_NumberProxy')}}>Run Me</Button>
+
+-----
+
+# How will it Work then ...
 
 ```javascript className=codehugeshift
 
 123 → new Number(123);
 
+```
+
+-----
+
+# How will it Work then ...
+
+```javascript className=codehugeshift
+
+123 → new Number(123);      // → Proxy
+
+```
+
+
+-----
+
+# How will it Work then ...
+
+```javascript className=codehugeshift
+
+123 → new Number(123);      // → Proxy
+
 '123' → new String(123);
+
+
+-----
+
+# How will it Work then ...
+
+```javascript className=codehugeshift
+
+123 → new Number(123);      // → Proxy
+
+'123' → new String(123);    // → Proxy
+
+
+
+
+```
+
+-----
+
+# How will it Work then ...
+
+```javascript className=codehugeshift
+
+123 → new Number(123);      // → Proxy
+
+'123' → new String(123);    // → Proxy
 
 true → new Boolean(true);
 
+```
 
 
+-----
 
+# How will it Work then ...
+
+```javascript className=codehugeshift
+
+123 → new Number(123);      // → Proxy
+
+'123' → new String(123);    // → Proxy
+
+true → new Boolean(true);   // → Proxy
 
 ```
 
 
 -----
 
-# Shut up and take my Money!
+# How will it Work then ...
 
 ```javascript className=codehugeshift
 
-123 → new Number(123);
+123 → new Number(123);      // → Proxy
 
-'123' → new String(123);
+'123' → new String(123);    // → Proxy
 
-true → new Boolean(true);
+true → new Boolean(true);   // → Proxy
 
 null, undefined, Symbol & BigInt → !Strict
 
@@ -78,43 +191,60 @@ null, undefined, Symbol & BigInt → !Strict
 
 -----
 
-# Shut up and take my Money!
+# How will it Work then ...
 
 ```javascript className=codehugeshift
 
-123 → new Number(123);
+123 → new Number(123);      // → Proxy
 
-'123' → new String(123);
+'123' → new String(123);    // → Proxy
 
-true → new Boolean(true);
+true → new Boolean(true);   // → Proxy
 
 null, undefined, Symbol & BigInt → !Strict
 
 Objects → Proxy(Objects)
 
 ```
-
 -----
 
-# Shut up and take my Money!
+# How will it Work then ...
 
 ```javascript className=codehugeshift
 
-123 → new Number(123);
+123 → new Number(123);      // → Proxy
 
-'123' → new String(123);
+'123' → new String(123);    // → Proxy
 
-true → new Boolean(true);
+true → new Boolean(true);   // → Proxy
 
 null, undefined, Symbol & BigInt → !Strict
 
-Objects → Proxy(Objects)
+Objects → Proxy(Objects)    // → Proxy
+
+```
+
+-----
+
+# How will it Work then ...
+
+```javascript className=codehugeshift
+
+123 → new Number(123);      // → Proxy
+
+'123' → new String(123);    // → Proxy
+
+true → new Boolean(true);   // → Proxy
+
+null, undefined, Symbol & BigInt → !Strict
+
+Objects → Proxy(Objects)    // → Proxy
 
 ```
 
 <img src="./content/img/take_my_money.jpg" style={{position: 'absolute', top: '11vh', left:'61vw', zIndex: 100, width: '29vw'}} />
 
-<Button onClick={() => { fetch('http://localhost:3001/example/02_01_SimpleClass')}}>Run Me</Button>
+<Button onClick={() => { fetch('http://localhost:3001/example/08_TheDealExample_1')}}>Run Me</Button>
 
 
 
@@ -122,21 +252,9 @@ Objects → Proxy(Objects)
 
 -----
 
-# Shut up and take my Money!
+# How will it Work then ...
 
 ```javascript className=codehuge
-
-Array, Object → PrototypeChain;
-
-
-```
------
-
-# Shut up and take my Money!
-
-```javascript className=codehuge
-
-Array, Object → PrototypeChain;
 
 Symbol.toPrimitive → (hint: 'number|string');
 
@@ -144,13 +262,25 @@ Symbol.toPrimitive → (hint: 'number|string');
 ```
 -----
 
-# Shut up and take my Money!
+# How will it Work then ...
 
 ```javascript className=codehuge
 
+Symbol.toPrimitive → (hint: 'number|string');
+
 Array, Object → PrototypeChain;
 
+
+```
+-----
+
+# How will it Work then ...
+
+```javascript className=codehuge
+
 Symbol.toPrimitive → (hint: 'number|string');
+
+Array, Object → PrototypeChain;
 
 Set, Map, WeakSet, WeakMap → We need it?
 
@@ -158,58 +288,58 @@ Set, Map, WeakSet, WeakMap → We need it?
 ```
 -----
 
-# Shut up and take my Money!
+# How will it Work then ...
 
 ```javascript className=codehuge
 
-Array, Object → PrototypeChain;
-
 Symbol.toPrimitive → (hint: 'number|string');
 
-Set, Map, WeakSet, WeakMap → We need it?
-
-.toJSON → !Strict
-
-
-```
------
-
-# Shut up and take my Money!
-
-```javascript className=codehuge
-
 Array, Object → PrototypeChain;
-
-Symbol.toPrimitive → (hint: 'number|string');
-
-Set, Map, WeakSet, WeakMap → We need it?
 
 .toJSON → !Strict
 
 .getPrototypeOf → SOLID
 
+
 ```
-
-
 -----
 
-# Shut up and take my Money!
+# How will it Work then ...
 
 ```javascript className=codehuge
 
-Array, Object → PrototypeChain;
-
 Symbol.toPrimitive → (hint: 'number|string');
 
-Set, Map, WeakSet, WeakMap → We need it?
+Array, Object → PrototypeChain;
 
 .toJSON → !Strict
 
 .getPrototypeOf → SOLID
 
+Set, Map, WeakSet, WeakMap → We need it?
+
 ```
 
-<img src="./content/img/take_my_money.jpg" style={{position: 'absolute', top: '59vh', left:'59vw', zIndex: 100, width: '29vw'}} />
 
-<Button onClick={() => { fetch('http://localhost:3001/example/02_01_SimpleClass')}}>Run Me</Button>
+-----
+
+# How will it Work then ...
+
+```javascript className=codehuge
+
+Symbol.toPrimitive → (hint: 'number|string');
+
+Array, Object → PrototypeChain;
+
+.toJSON → !Strict
+
+.getPrototypeOf → SOLID
+
+Set, Map, WeakSet, WeakMap → We need it?
+
+```
+
+<img src="./content/img/take_my_money.jpg" style={{position: 'absolute', top: '42vh', left:'65vw', zIndex: 100, width: '29vw'}} />
+
+<Button onClick={() => { fetch('http://localhost:3001/example/08_TheDealExample_2')}}>Run Me</Button>
 

@@ -9,11 +9,11 @@
 
 -----
 
-# Shut up and take my Money!
+# How it Works the Next ...
 
 ```javascript className=codegiant
 
-APL genes →
+// → TypeClass Questions
 
 Inheritance → LISKOV & SRP;
 
@@ -22,53 +22,52 @@ Inheritance → LISKOV & SRP;
 
 -----
 
-# Shut up and take my Money!
+# How it Works the Next ...
 
 ```javascript className=codegiant
 
-APL genes →
+// → TypeClass Questions
 
 Inheritance → LISKOV & SRP;
 
-new Network(Proto) → !SOLID Strict;
-
+this.myMethod() → !RESTRICTED
 
 ```
 
 -----
 
-# Shut up and take my Money!
+# How it Works the Next ...
 
 ```javascript className=codegiant
 
-APL genes →
+// → TypeClass Questions
 
 Inheritance → LISKOV & SRP;
 
-new Network(Proto) → !SOLID Strict;
+this.myMethod() → !RESTRICTED
 
-define .myMethod → !RESTRICTED
+new Network(Proto) → !SOLID Strict;
 
 ```
 
 
 -----
 
-# Shut up and take my Money!
+# How it Works the Next ...
 
 ```javascript className=codegiant
 
-APL genes →
+// → TypeClass
 
 Inheritance → LISKOV & SRP;
 
-new Network(Proto) → !SOLID Strict;
+this.myMethod() → !RESTRICTED
 
-define .myMethod → !RESTRICTED
+new Network(Proto) → !SOLID Strict;
 
 ```
 
 <img src="./content/img/girl_burns.jpeg" style={{position: 'absolute', top: '5vh', left:'59vw', zIndex: 100, width: '29vw'}} />
 
-<Button onClick={() => { fetch('http://localhost:3001/example/02_01_SimpleClass')}}>Run Me</Button>
+<Button onClick={() => { fetch('http://localhost:3001/example/09_NextStep')}}>Run Me</Button>
 

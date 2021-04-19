@@ -7,7 +7,7 @@
 
 -----
 
-# intricacies : Reactions on Prototype Chain
+# intricacies : Still thinking Of
 
 ```javascript className=codegiantshift
 
@@ -16,78 +16,84 @@
 
 -----
 
-# intricacies : Reactions on Prototype Chain
+# intricacies : Still thinking Of
 
 ```javascript className=codegiantshift
 
 → Prop.subscribe (callback);
-
 → Prop.unsibscribe (callback);
 
 -----
 
-# intricacies : Reactions on Prototype Chain
+# intricacies : Still thinking Of
 
 ```javascript className=codegiantshift
 
 → Prop.subscribe (callback);
-
 → Prop.unsibscribe (callback);
+→ Prop.validation (callback);
+
+```
+
+-----
+
+# intricacies : Still thinking Of
+
+```javascript className=codegiantshift
+
+→ Prop.subscribe (callback);
+→ Prop.unsibscribe (callback);
+→ Prop.validation (callback);
 
 ```
 <center>
-<img src="./content/img/half_liter_mouse.jpg" style={{top: '35vh', left:'70vw', zIndex: 100, width: '39vw'}} />
+<img src="./content/img/half_liter_mouse.jpg" style={{top: '47vh', left:'70vw', zIndex: 100, width: '39vw'}} />
 </center>
 
-<Button onClick={() => { fetch('http://localhost:3001/example/05_intricaciesFnProto')}}>Run Me</Button>
-
 -----
 
-# intricacies : Reactions on prototype Topology 
+# intricacies : Reactions on Prototype Topology 
 
 ```javascript className=codegiantshift
 
-→ if instance is a Kind
-
-new parent.Child();
+→ if instance is a Kind parent
 
 
 ```
 
-
 -----
 
-# intricacies : Reactions on prototype Topology 
+# intricacies : Reactions on Prototype Topology 
 
 ```javascript className=codegiantshift
 
-→ if instance is a Kind
+→ if instance is a Kind parent
 
 new parent.Child();
 
 // use interfaces instead
-ø instance.getOtherKindData();
 
 ```
 
 -----
 
-# intricacies : Reactions on prototype Topology 
+# intricacies : Reactions on Prototype Topology 
 
 ```javascript className=codegiantshift
 
-→ if instance is a Kind
+→ if instance is a Kind parent
 
 new parent.Child();
 
 // use interfaces instead
-ø instance.getOtherKindData();
-
+// or hint -- use mnemonica
 ```
 
-<Button onClick={() => { fetch('http://localhost:3001/example/05_intricaciesFnProto')}}>Run Me</Button>
+<center>
 
-<img src="./content/img/Yes-You-Can-Slide.jpg" style={{position: 'absolute', top: '30vh', left:'70vw', zIndex: 100, width: '25vw'}} />
+# https://www.npmjs.com/package/mnemonica
+
+</center>
 
 -----
 

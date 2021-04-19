@@ -13,14 +13,53 @@ debugger;
 
 var instance = new TheConstructor;
 
-
-// show the props
+// review the props of instance !
 debugger;
 
 TheConstructor.prototype;
 debugger;
 
 instance.constructor.prototype;
+debugger;
+
+
+
+// First Prototype
+console.log(
+	
+	Object.getPrototypeOf(
+		
+		instance
+		
+	)
+);
+debugger;
+
+// Second Prototype
+console.log(
+
+	Object.getPrototypeOf(
+		Object.getPrototypeOf(
+
+			instance
+
+		))
+);
+
+debugger;
+
+// Third Prototype
+console.log(
+
+	Object.getPrototypeOf(
+		Object.getPrototypeOf(
+		Object.getPrototypeOf(
+
+			instance
+
+		)))
+);
+
 debugger;
 
 // back to 2020
@@ -64,5 +103,6 @@ console.log(
 			TheConstructor.prototype, 
 				'constructor'
 	));
-	
+
 debugger;
+
