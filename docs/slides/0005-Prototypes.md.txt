@@ -335,7 +335,7 @@ const base = Object.create(null);
 // make proto for base
 
 const proto = 
-	new Proxy( proto, { get, set } );
+ new Proxy( proto, { get, set } );
 
 ```
 
