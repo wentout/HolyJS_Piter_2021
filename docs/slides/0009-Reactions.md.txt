@@ -11,26 +11,6 @@
 
 ```javascript className=codegiantshift
 
-→ Prop.subscribe (callback);
-
-
------
-
-# intricacies : Still thinking Of
-
-```javascript className=codegiantshift
-
-→ Prop.subscribe (callback);
-→ Prop.unsibscribe (callback);
-
------
-
-# intricacies : Still thinking Of
-
-```javascript className=codegiantshift
-
-→ Prop.subscribe (callback);
-→ Prop.unsibscribe (callback);
 → Prop.validation (callback);
 
 ```
@@ -41,18 +21,36 @@
 
 ```javascript className=codegiantshift
 
+→ Prop.validation (callback);
+
 → Prop.subscribe (callback);
 → Prop.unsibscribe (callback);
+
+```
+
+-----
+
+# intricacies : Still thinking Of
+
+```javascript className=codegiantshift
+
 → Prop.validation (callback);
+
+→ Prop.subscribe (callback);
+→ Prop.unsibscribe (callback);
 
 ```
 <center>
-<img src="./content/img/half_liter_mouse.jpg" style={{top: '47vh', left:'70vw', zIndex: 100, width: '39vw'}} />
+<img src="./content/img/half_liter_mouse.jpg" style={{marginTop: '1vh', left:'70vw', zIndex: 100, width: '30vw'}} />
 </center>
 
 -----
 
-# intricacies : Reactions on Prototype Topology 
+
+
+-----
+
+# Prototype Topology 
 
 ```javascript className=codegiantshift
 
@@ -63,7 +61,7 @@
 
 -----
 
-# intricacies : Reactions on Prototype Topology 
+# Prototype Topology 
 
 ```javascript className=codegiantshift
 
@@ -77,7 +75,7 @@ new parent.Child();
 
 -----
 
-# intricacies : Reactions on Prototype Topology 
+# Prototype Topology 
 
 ```javascript className=codegiantshift
 
@@ -97,51 +95,52 @@ new parent.Child();
 
 -----
 
-# intricacies : Reactions on Security Reasons
+# Security Reasons
 
 ```javascript className=codegiantshift
 
-→ it is just Identity Pattern
+→ it is just an Identity
 
 
 ```
 -----
 
-# intricacies : Reactions on Security Reasons
+# Security Reasons
 
 ```javascript className=codegiantshift
 
-→ it is just Identity Pattern
-
-→ easy to understand
-
-```
------
-
-# intricacies : Reactions on Security Reasons
-
-```javascript className=codegiantshift
-
-→ it is just Identity Pattern
-
-→ easy to understand
+→ it is just an Identity
 
 → healthy development
 
 ```
 -----
 
-# intricacies : Reactions on Security Reasons
+# Security Reasons
 
 ```javascript className=codegiantshift
 
-→ it is just Identity Pattern
-
-→ easy to understand
+→ it is just an Identity
 
 → healthy development
 
-        ... enjoy ...
+→ easy to understand
+
+```
+
+-----
+
+# Security Reasons
+
+```javascript className=codegiantshift
+
+→ it is just an Identity
+
+→ healthy development
+
+→ easy to understand
+
+//   ... give it a try ...
 
 ```
 

@@ -50,19 +50,22 @@
 <h1 style={{fontSize: '11vh', color:'orange'}}>links</h1>
 
 <br/>
-<br/>
-<br/>
-<br/>
-
-# https://twitter.com/went_out
 
 <br/>
 
-# https://www.npmjs.com/package/typeomatica
+# [this talk with all examples](https://github.com/wentout/HolyJS_Piter_2021)
 
 <br/>
 
-# https://github.com/wentout/HolyJS_Piter_2021
+# used library : [Type ø Matica](https://www.npmjs.com/package/typeomatica)
+
+<br/>
+<br/>
+
+# project : [Mnemonica](https://www.npmjs.com/package/mnemonica)
+
+<br/>
+
 
 
 </center>
@@ -75,21 +78,6 @@
 
 -----
 
-
------
-
-
-
-<Box sx={{marginTop: '10vh'}}>
-<center>
-<h1 style={{color:'orange'}}>where you can peer at</h1>
-
-<a href="https://www.npmjs.com/package/mnemonica">
-<img src="./content/img/mnemonica.png" style={{width: '55vw'}} />
-</a>
-
-</center>
-</Box>
 
 -----
 
