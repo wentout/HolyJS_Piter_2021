@@ -7,135 +7,140 @@
 
 -----
 
-# intricacies : Reactions on Prototype Chain
+# intricacies : Still thinking Of
 
 ```javascript className=codegiantshift
 
-→ Prop.subscribe (callback);
+→ Prop.validation (callback);
 
+```
 
 -----
 
-# intricacies : Reactions on Prototype Chain
+# intricacies : Still thinking Of
 
 ```javascript className=codegiantshift
 
-→ Prop.subscribe (callback);
+→ Prop.validation (callback);
 
+→ Prop.subscribe (callback);
 → Prop.unsibscribe (callback);
 
+```
+
 -----
 
-# intricacies : Reactions on Prototype Chain
+# intricacies : Still thinking Of
 
 ```javascript className=codegiantshift
 
-→ Prop.subscribe (callback);
+→ Prop.validation (callback);
 
+→ Prop.subscribe (callback);
 → Prop.unsibscribe (callback);
 
 ```
 <center>
-<img src="./content/img/half_liter_mouse.jpg" style={{top: '35vh', left:'70vw', zIndex: 100, width: '39vw'}} />
+<img src="./content/img/half_liter_mouse.jpg" style={{marginTop: '1vh', left:'70vw', zIndex: 100, width: '30vw'}} />
 </center>
 
-<Button onClick={() => { fetch('http://localhost:3001/example/05_intricaciesFnProto')}}>Run Me</Button>
-
 -----
 
-# intricacies : Reactions on prototype Topology 
-
-```javascript className=codegiantshift
-
-→ if instance is a Kind
-
-new parent.Child();
-
-
-```
 
 
 -----
 
-# intricacies : Reactions on prototype Topology 
+# Prototype Topology 
 
 ```javascript className=codegiantshift
 
-→ if instance is a Kind
+→ if instance is a Kind parent
 
-new parent.Child();
-
-// use interfaces instead
-ø instance.getOtherKindData();
 
 ```
 
 -----
 
-# intricacies : Reactions on prototype Topology 
+# Prototype Topology 
 
 ```javascript className=codegiantshift
 
-→ if instance is a Kind
+→ if instance is a Kind parent
 
 new parent.Child();
 
 // use interfaces instead
-ø instance.getOtherKindData();
 
 ```
 
-<Button onClick={() => { fetch('http://localhost:3001/example/05_intricaciesFnProto')}}>Run Me</Button>
-
-<img src="./content/img/Yes-You-Can-Slide.jpg" style={{position: 'absolute', top: '30vh', left:'70vw', zIndex: 100, width: '25vw'}} />
-
 -----
 
-# intricacies : Reactions on Security Reasons
+# Prototype Topology 
 
 ```javascript className=codegiantshift
 
-→ it is just Identity Pattern
+→ if instance is a Kind parent
+
+new parent.Child();
+
+// use interfaces instead
+// or hint -- use mnemonica
+```
+
+<center>
+
+# https://www.npmjs.com/package/mnemonica
+
+</center>
+
+-----
+
+# Security Reasons
+
+```javascript className=codegiantshift
+
+→ it is just an Identity
 
 
 ```
 -----
 
-# intricacies : Reactions on Security Reasons
+# Security Reasons
 
 ```javascript className=codegiantshift
 
-→ it is just Identity Pattern
-
-→ easy to understand
-
-```
------
-
-# intricacies : Reactions on Security Reasons
-
-```javascript className=codegiantshift
-
-→ it is just Identity Pattern
-
-→ easy to understand
+→ it is just an Identity
 
 → healthy development
 
 ```
 -----
 
-# intricacies : Reactions on Security Reasons
+# Security Reasons
 
 ```javascript className=codegiantshift
 
-→ it is just Identity Pattern
-
-→ easy to understand
+→ it is just an Identity
 
 → healthy development
 
-        ... enjoy ...
+→ easy to understand
+
+```
+
+-----
+
+# Security Reasons
+
+```javascript className=codegiantshift
+
+→ it is just an Identity
+
+→ healthy development
+
+→ easy to understand
+
+//   ... give it a try ...
 
 ```
 

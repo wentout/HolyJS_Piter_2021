@@ -15,10 +15,19 @@ app.get('/example/:name', (req, res) => {
 	let cached = null;
 	res.end();
 	try {
+
 		const { name } = req.params;
 		cached = require.resolve(`./examples/${name}`);
+
+		// Cleanup the Console !
+		debugger;
+
 		require(cached);
+
 	} catch (error) {
+
+		console.error('sample error : ', error);
+
 		debugger;
 	} finally {
 		if (cached) {

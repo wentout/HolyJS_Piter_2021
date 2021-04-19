@@ -20,16 +20,15 @@
     "d3": "^5.15.0",
     "eslint-plugin-mocha": "^8.1.0",
     "eslint-plugin-no-arrow-this": "^1.2.0",
+    "eslint-plugin-react": "^7.23.2",
     "express": "^4.17.1",
     "magic-snowflakes": "^4.1.5",
     "mnemonica": "^0.9.89",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-scripts": "^4.0.3",
-    "theme-ui": "^0.3.1"
-  },
-  "devDependencies": {
-    "eslint-plugin-react": "^7.23.2",
+    "theme-ui": "^0.3.1",
+    "typeomatica": "^0.2.1",
     "typescript": "^3.9.5"
   },
   "scripts": {

@@ -46,7 +46,7 @@
 
 ```
 
-<Button onClick={() => { fetch('http://localhost:3001/example/00_with')}}>Run Me</Button>
+<Button onClick={() => { fetch('http://localhost:3001/example/00_valueOf')}}>Run Me</Button>
 
 -----
 
@@ -62,7 +62,7 @@ with (0) {
 }
 ```
 
-<Button onClick={() => { fetch('http://localhost:3001/example/00_with')}}>Run Me</Button>
+<Button onClick={() => { fetch('http://localhost:3001/example/00_with_0')}}>Run Me</Button>
 
 -----
 
@@ -175,6 +175,20 @@ var instance = new TheConstructor;
 CF is a constructor (and also an object). Five objects have been created by using new expressions: cf1, cf2, cf3, cf4, and cf5. Each of these objects contains properties named "q1" and "q2". The dashed lines represent the implicit prototype relationship; so, for example, cf3's prototype is CFp. The constructor, CF, has two properties itself, named "P1" and "P2", which are not visible to CFp, cf1, cf2, cf3, cf4, or cf5. The property named "CFP1" in CFp is shared by cf1, cf2, cf3, cf4, and cf5 (but not by CF), as are any properties found in CFp's implicit prototype chain that are not named "q1", "q2", or "CFP1". Notice that there is no implicit prototype link between CF and CFp.
 
 Unlike most class-based object languages, properties can be added to objects dynamically by assigning values to them. That is, constructors are not required to name or assign values to all or any of the constructed object's properties. In the above diagram, one could add a new shared property for cf1, cf2, cf3, cf4, and cf5 by assigning a new value to the property in CFp.
+
+-----
+
+# Let's take a look on How Deep is <br/> &nbsp; the bunny hole of the Prototype Chain ?
+
+<Box>
+<center>
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain">
+<img src="./content/img/PrototypeChain.png"  style={{width: '70vw'}} />
+</a>
+</center>
+</Box>
+
+<Button onClick={() => { fetch('http://localhost:3001/example/PrototypeChainDeepnessTest')}}>Run Me</Button>
 
 -----
 
@@ -293,20 +307,6 @@ Unlike most class-based object languages, properties can be added to objects dyn
 
 -----
 
-# Let's take a look on How Deep is <br/> &nbsp; the bunny hole of the Prototype Chain ?
-
-<Box>
-<center>
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain">
-<img src="./content/img/PrototypeChain.png"  style={{width: '70vw'}} />
-</a>
-</center>
-</Box>
-
-<Button onClick={() => { fetch('http://localhost:3001/example/PrototypeChainDeepnessTest')}}>Run Me</Button>
-
------
-
 
 # Let's take a look on How Deep is <br/> &nbsp; the bunny hole of the Prototype Chain ?
 
@@ -335,7 +335,7 @@ const base = Object.create(null);
 // make proto for base
 
 const proto = 
-	new Proxy( proto, base );
+	new Proxy( proto, { get, set } );
 
 ```
 
@@ -347,7 +347,7 @@ const proto =
 ```javascript className=codehugeshift
 
 const base = Object.create(null);
-const proto = new Proxy(proto, base);
+const proto = new Proxy(base, { get, set });
 
 
 ```
@@ -366,15 +366,35 @@ const proto = new Proxy(proto, base);
 ```javascript className=codehugeshift
 
 const base = Object.create(null);
-const proto = new Proxy(proto, base);
+const proto = new Proxy(base, { get, set });
 const instance = {};
 
 ```
 ```javascript className=codegiant
 Reflect            // Inherit !
  .setPrototypeOf
-       (instance, proto);
+       ( instance, proto );
 
 ```
 
 -----
+
+
+# Let's take a look on How Deep is <br/> &nbsp; the bunny hole of the Prototype Chain ?
+
+```javascript className=codehugeshift
+
+const base = Object.create(null);
+const proto = new Proxy(base, { get, set });
+const instance = {};
+
+```
+```javascript className=codegiant
+Reflect            // Inherit !
+ .setPrototypeOf
+       ( instance, proto );
+
+```
+
+
+<Button onClick={() => { fetch('http://localhost:3001/example/00_Proxy')}}>Run Me</Button>

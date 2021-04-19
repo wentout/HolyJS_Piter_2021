@@ -215,6 +215,150 @@ console.log({} + 'asdfgh'); // ...
 <img src="./content/img/Yes-You-Can-Slide.jpg" style={{position: 'absolute', top: '16vh', left:'32vw', zIndex: 100, width: '35vw'}} />
 
 
+
+-----
+
+# But Even Worse is :
+
+
+<Box style={{color: '#EFEFEF', margin: '10vh'}}>
+<center>
+
+<h1 style={{fontSize: '10vh'}}> 0 . 1 + 0 . 2 =</h1>
+
+</center>
+</Box>
+
+-----
+
+# But Even Worse is :
+
+
+<Box style={{color: '#EFEFEF', margin: '10vh'}}>
+<center>
+
+<h1 style={{fontSize: '10vh'}}> 0 . 1 + 0 . 2 =</h1>
+<h1 style={{fontSize: '15vh', color: 'red'}}><nobr> 0 . 3000000000000004 </nobr></h1>
+
+</center>
+</Box>
+
+-----
+
+# But Even Worse is :
+
+
+<Box style={{color: '#EFEFEF', margin: '10vh'}}>
+<center>
+
+<h1 style={{fontSize: '10vh'}}> 0 . 1 + 0 . 2 =</h1>
+<h1 style={{fontSize: '15vh', color: 'red'}}><nobr> 0 . 3000000000000004 </nobr></h1>
+
+</center>
+</Box>
+
+
+<img src="./content/img/Yes-You-Can-Slide.jpg" style={{position: 'absolute', top: '37vh', left:'32vw', zIndex: 100, width: '35vw'}} />
+
+
+-----
+
+# For Sure we have to ...
+
+
+<Box style={{color: '#EFEFEF', margin: '10vh'}}>
+<center>
+
+<h1 style={{fontSize: '30vh', margin: '0px'}}> IEEE 754 </h1>
+
+</center>
+</Box>
+
+-----
+
+# For Sure we have to ...
+
+
+<Box style={{color: '#EFEFEF', margin: '10vh'}}>
+<center>
+
+<h1 style={{fontSize: '30vh', margin: '0px'}}> IEEE 754 </h1>
+<h1 style={{fontSize: '10vh'}}> follow Recomendations </h1>
+
+</center>
+</Box>
+
+-----
+
+# For Sure we have to ...
+
+
+<Box style={{color: '#EFEFEF', margin: '10vh'}}>
+<center>
+
+<h1 style={{fontSize: '30vh', margin: '0px'}}> IEEE 754 </h1>
+<h1 style={{fontSize: '10vh'}}> follow Recomendations </h1>
+
+[Avoiding Problems with Decimal Math in JavaScript - A Drip of JavaScript](http://adripofjavascript.com/blog/drips/avoiding-problems-with-decimal-math-in-javascript.html)
+
+[What Every JavaScript Developer Should Know About Floating Points | Modern Web](https://modernweb.com/what-every-javascript-developer-should-know-about-floating-points/)
+
+[What Every Computer Scientist Should Know About Floating-Point Arithmetic](https://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html)
+
+</center>
+</Box>
+
+-----
+
+# For Sure we have to ...
+
+
+<Box style={{color: '#EFEFEF', margin: '10vh'}}>
+<center>
+
+<h1 style={{fontSize: '12vh', color: 'green', margin: '0px'}}> ((10* 0 . 1) + (10* 0 . 2)) </h1>
+<h1 style={{fontSize: '15vh', color: 'green', margin: '0px'}}> ÷ 10 === </h1>
+<h1 style={{fontSize: '22vh', color: 'orange', margin: '0px'}}> 0 . 3 </h1>
+
+</center>
+</Box>
+
+
+-----
+
+# so ...
+
+
+<Box style={{color: '#EFEFEF', margin: '10vh'}}>
+<center>
+
+<h1 style={{fontSize: '10vh', margin: '0px'}}> TypeScript don't Helps here </h1>
+<br/>
+<br/>
+
+
+</center>
+</Box>
+
+-----
+
+# so ...
+
+
+<Box style={{color: '#EFEFEF', margin: '10vh'}}>
+<center>
+
+<h1 style={{fontSize: '10vh', margin: '0px'}}> TypeScript don't Helps here </h1>
+<br/>
+<br/>
+<h1 style={{fontSize: '10vh'}}> then what to try next? </h1>
+
+
+
+</center>
+</Box>
+
+
 -----
 
 # how ES Lint may help
@@ -395,6 +539,14 @@ console.log({} + 'asdfgh'); // ...
 
 <img src="./content/img/girl_burns.jpeg" style={{position: 'absolute', top: '20vh', left:'32vw', zIndex: 100, width: '35vw'}} />
 
+
+-----
+
+<Box sx={{marginTop: '35vh'}}>
+<center>
+<h1 style={{fontSize: '11vh', color: 'white'}}>. . .</h1>
+</center>
+</Box>
 
 -----
 
